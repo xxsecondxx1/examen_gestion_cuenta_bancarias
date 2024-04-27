@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("examen_gestion_cuenta_bancarias")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+72cd2375c097a68c7b1e2927b51c27d943cb34b8")]
 [assembly: System.Reflection.AssemblyProductAttribute("examen_gestion_cuenta_bancarias")]
 [assembly: System.Reflection.AssemblyTitleAttribute("examen_gestion_cuenta_bancarias")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

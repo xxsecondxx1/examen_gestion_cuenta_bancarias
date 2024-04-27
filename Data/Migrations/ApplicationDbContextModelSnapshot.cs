@@ -222,6 +222,31 @@ namespace examen_gestion_cuenta_bancarias.Data.Migrations
                     b.ToTable("AspNetUserTokens", (string)null);
                 });
 
+            modelBuilder.Entity("examen_gestion_cuenta_bancarias.Models.Registro_cuentab", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("integer");
+
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Email")
+                        .HasColumnType("text");
+
+                    b.Property<string>("Name")
+                        .HasColumnType("text");
+
+                    b.Property<string>("SaldoI")
+                        .HasColumnType("text");
+
+                    b.Property<string>("Tipo_Cuenta")
+                        .HasColumnType("text");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("t_CuentaBancaria");
+                });
+
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
                 {
                     b.HasOne("Microsoft.AspNetCore.Identity.IdentityRole", null)
